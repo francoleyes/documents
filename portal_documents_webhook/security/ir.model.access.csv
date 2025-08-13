@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_documents_webhook_queue_manager,documents.webhook.queue manager,model_documents_webhook_queue,documents.group_documents_manager,1,1,1,1
+access_set_webhook_url_wizard_user,access_set_webhook_url_wizard_user,model_set_webhook_url_wizard,,1,1,1,0

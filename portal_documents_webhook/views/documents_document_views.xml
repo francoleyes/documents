@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="documents_view_list" model="ir.ui.view">
+        <field name="name">documents.document.list</field>
+        <field name="model">documents.document</field>
+        <field name="inherit_id" ref="documents.documents_view_list" />
+        <field name="arch" type="xml">
+            <field name="activity_exception_decoration" position="after">
+                <field name="webhook_url" />
+            </field>
+        </field>
+    </record>
+</odoo>

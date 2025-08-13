@@ -1,0 +1,11 @@
+<odoo noupdate="1">
+    <record
+        id="ir_config_parameter_documents_webhook_access_token"
+        model="ir.config_parameter"
+    >
+        <field
+            name="key"
+        >portal_documents_webhook.documents_webhook_access_token</field>
+        <field name="value" />
+    </record>
+</odoo>

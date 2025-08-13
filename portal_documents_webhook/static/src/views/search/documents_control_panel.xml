@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+    <t t-inherit="documents.ControlPanel" t-inherit-mode="extension">
+        <xpath expr="//ul[@class='dropdown-menu']" position="inside">
+            <li>
+                <button
+                    class="dropdown-item w-100"
+                    t-on-click="() => this.onSetWebhookUrl()"
+                    t-if="selectionCount"
+                >
+                    <i class="fa fa-fw fa-link me-1" />
+                    <span class="d-inline-block">Set Webhook URL</span>
+                </button>
+            </li>
+        </xpath>
+    </t>
+</templates>

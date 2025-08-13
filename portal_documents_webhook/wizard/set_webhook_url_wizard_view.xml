@@ -1,0 +1,25 @@
+<odoo>
+    <record id="view_set_webhook_url_wizard_form" model="ir.ui.view">
+        <field name="name">set.webhook.url.wizard.form</field>
+        <field name="model">set.webhook.url.wizard</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field
+                        name="webhook_url"
+                        placeholder="URL or leave empty to remove."
+                    />
+                </group>
+                <footer>
+                    <button
+                        name="action_set_webhook_url"
+                        type="object"
+                        string="Set"
+                        class="btn-primary"
+                    />
+                    <button string="Cancel" class="btn-secondary" special="cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>
